@@ -10,7 +10,7 @@ function Home() {
         Vocapraya
       </h1>
       <h1 className="text-[#ff6ea2] text-[32px] sm:text-[40px] md:text-[48px] lg:text-[68px] font-['Archivo_Black'] leading-tight">
-        CIRCLE VOCALOID OR VOICE SYNTHESIZER MUSIC
+        COMMUNITY VOCALOID OR VOICE SYNTHESIZER MUSIC
       </h1>
     </section>
 

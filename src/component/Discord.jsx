@@ -8,12 +8,12 @@ const Discord = () => {
 
   return (
 <>
-<section className="text-center py-8 flex items-center justify-center">
+<section className="text-center py-8 flex items-center justify-center mt-40">
         <div className="border-t-4 border-pink-400 w-16 mr-2"></div>
         <h1 className="font-bold text-[25px]">KOMUNITAS</h1>
         <div className="border-t-4 border-pink-400 w-16 ml-2"></div>
 </section>
-<div className="w-full bg-gradient-to-t flex items-center justify-center py-6">
+<div className="w-full bg-gradient-to-t flex items-center justify-center mt-5">
 
   {/* Background Card yang besar dan rounded */}
   <div className="relative w-[90%] max-w-6xl h-[400px] bg-[#404eed] rounded-3xl overflow-hidden flex items-center justify-center shadow-2xl">
