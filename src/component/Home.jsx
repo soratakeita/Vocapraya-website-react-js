@@ -14,8 +14,11 @@ function Home() {
       </h1>
     </section>
 
-    <img className="w-full md:w-1/3 hidden md:block" src="./assets/1.png" alt="Profile Image" />
-  </div>
+    <img
+  className="w-full md:max-w-[300px] object-contain hidden md:block"
+  src="./assets/1.png"
+  alt="Profile Image"
+/></div>
 </div>
 
     </>
