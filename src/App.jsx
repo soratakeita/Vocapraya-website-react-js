@@ -1,25 +1,24 @@
 import './App.css'
-import Discord from './component/Discord'
-import Header from './component/Header'
-import Home from './component/Home'
-import About from "./component/About"
-import Background from './component/Background'
-import Merch from './component/Merch'
-import Social from './component/Social'
-import Footer from './component/Footer'
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
+import HalamanUtama from './pages/Homes';
+import Header from './component/Header';
+import Artist from './pages/Artist';
+import Footer from './component/Footer';
+import Album from './pages/Song';
 function App() {
 
   return (
     <>
-    <Background />
+  <Router>   
     <Header />
-    <Home />
-    <About />
-    <Social />
-    <Discord />
-    <Merch />
+      <Routes>
+        <Route path="/" element={<HalamanUtama />} />
+        <Route path="/artist" element={<Artist />} />
+        <Route path="/album" element={<Album />} />
+      </Routes>
     <Footer />
+  </Router>
+    
 
     </>
   )
